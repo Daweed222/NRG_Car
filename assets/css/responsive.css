@@ -1,0 +1,142 @@
+@media (max-width: 1366px){
+	.content-inner{
+		padding: 0 70px;
+	}
+	nav.top-nav{
+		padding: 20px 70px;
+	}
+	nav div.nav-menu ul li{
+		margin: 0 10px;
+	}
+	nav div.nav-extend{
+		display: flex;
+		flex-direction: column;
+	}
+	nav div.nav-extend div{
+		margin: 5px 0;
+	}
+	section.slider div.arrows{
+		left: 70px;
+	}
+}
+
+@media (max-width: 1024px){
+	.content-inner{
+		padding: 0 30px;
+	}
+	nav.top-nav{
+		padding: 20px 30px;
+	}
+	section.slider div.arrows{
+		left: 30px;
+	}
+	section.contact{
+		display: flex;
+		flex-direction: column;
+	}
+	section.contact div.map-container{
+		width: 100%;
+		height: 200px;
+	}
+	section.contact div.contact-info{
+		width: 100%;
+	}
+	section.contact div.contact-info div.headline{
+		width: 100%;
+	}
+	section.contact div.contact-info div.flexbox{
+		width: 100%;
+	}
+	section.contact div.contact-info div.flexbox > div{
+		width: 50%;
+	}
+}
+
+@media (max-width: 840px){
+	nav.top-nav{
+		display: none;
+	}
+	nav.mobile-nav{
+		display: flex;
+		padding: 10px 20px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	nav.mobile-nav div.mobile-nav-menu{
+		/*display: none;*/
+	}
+}
+@media (max-width: 768px){
+	section.featured-products{
+		padding: 90px 45px;
+	}
+	section.featured-products div.products{
+		flex-wrap: wrap;
+	}
+	section.featured-products div.products div.product-box{
+		width: 90%;
+	}
+	section.featured-products div.products div.product-box img{
+		width: 70%;
+		display: block;
+		margin: 30px auto;
+	}
+	section.contact div.contact-info div.flexbox{
+		flex-wrap: wrap;
+	}
+	section.contact div.contact-info div.flexbox > div{
+		width: 100%;
+		margin: 20px;
+	}
+	section.contact div.contact-info div.flexbox .div-form button{
+		width: 60%;
+	}
+	section.nrg-prod .headline h1{
+		margin-bottom: 20px;
+	}
+	section.nrg-prod .logos{
+		flex-direction: column;
+	}
+	section.nrg-prod .logos div{
+		width: 100%;
+		margin: 30px 0;
+	}
+	section.nrg-prod .logos div img{
+		width: 30%;
+	}
+}
+@media (max-width: 520px){
+	section.slider div.slidee{
+		background-size: cover;
+		background-position: center;
+	}
+	section.slider div.slidee h2{
+		font-size: 26px;
+	}
+	section.slider div.slidee h3, section.slider div.slidee a.btn{
+		font-size: 20px;
+	}
+	section.slider div.arrows{
+		top: 320px;
+	}
+	section.contact div.contact-info div.flexbox .div-form input, div.contact-info div.flexbox .div-form textarea{
+		width: 100%;
+	}
+}
+@media (max-width: 420px){
+	.content-inner{
+		padding: 0 20px;
+	}
+	section.featured-products{
+		padding: 90px 20px;
+	}
+	section.contact div.contact-info{
+		padding: 55px 20px;
+	}
+	section.nrg-prod .logos div img{
+		width: 70%;
+	}
+	section.featured-products div.products div.product-box img{
+		width: 100%;
+	}
+}
